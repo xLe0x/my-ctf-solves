@@ -1,0 +1,1 @@
+flask-unsign -d --cookie 'eyJmbGFnIjp7IiBiIjoiTWpRM1ExUkdlMlJoT0RBM09UVm1PR0UxWTJGaU1tVXdNemRrTnpNNE5UZ3dOMkk1WVRreGZRPT0ifX0.aBkOCg.o8ro7m-wRzaMQAsvDiNtF07E0rk' | grep -o "b'247CTF{[^']*'" | cut -d "'" -f2
